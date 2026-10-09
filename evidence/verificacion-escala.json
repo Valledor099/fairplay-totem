@@ -1,0 +1,79 @@
+{
+  "portrait": [
+    {
+      "height": 1920,
+      "imageLoaded": true,
+      "overflow": false,
+      "pageHeight": 1920,
+      "title": "El vestuario",
+      "titleSize": "126px",
+      "width": 1080
+    },
+    {
+      "height": 1920,
+      "imageLoaded": true,
+      "overflow": false,
+      "pageHeight": 1920,
+      "title": "La alfombra roja",
+      "titleSize": "126px",
+      "width": 1080
+    },
+    {
+      "height": 1920,
+      "imageLoaded": true,
+      "overflow": false,
+      "pageHeight": 1920,
+      "title": "Comprate un deporte",
+      "titleSize": "126px",
+      "width": 1080
+    },
+    {
+      "height": 1920,
+      "imageLoaded": true,
+      "overflow": false,
+      "pageHeight": 1920,
+      "title": "Lo que no se ve",
+      "titleSize": "126px",
+      "width": 1080
+    },
+    {
+      "height": 1920,
+      "overflow": false,
+      "pageHeight": 1920,
+      "title": "Experiencias",
+      "width": 1080
+    }
+  ],
+  "sizes": [
+    {
+      "height": 1280,
+      "overflow": false,
+      "pageHeight": 1280,
+      "view": "mapa",
+      "width": 720
+    },
+    {
+      "height": 1280,
+      "overflow": false,
+      "pageHeight": 1280,
+      "view": "detalle",
+      "width": 720
+    },
+    {
+      "height": 1280,
+      "overflow": false,
+      "pageHeight": 1280,
+      "view": "experiencias",
+      "width": 720
+    },
+    {
+      "activity": "87.7037px",
+      "height": 884,
+      "kioskWidth": 1178,
+      "overflow": false,
+      "title": "160.059px",
+      "view": "panel actual",
+      "width": 1184
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "tool": "Built-in image_gen",
+  "type": "Photorealistic conceptual assets; not documentation of an actual event",
+  "prompts": [
+    {
+      "name": "alfombra",
+      "prompt": "Use case: photorealistic-natural. Asset type: final editorial photograph for FAIR PLAY sports-event vertical touchscreen kiosk. Generate ONE portrait 1024x1536 photograph. Scene: immersive entrance to an indoor sports venue. A sophisticated sage-green carpet recedes between brushed-metal stanchions with dark cords; real photographers on either side hold professional cameras, their hands and cameras visible near foreground edges, occasional natural camera flash. A participant seen from behind in a simple unbranded dark sports outfit walks along the carpet toward soft light. Composition has strong central perspective, believable human scale, medium framing, photographic detail, silver hardware, rich sage #708d81, deep charcoal #051014, muted white highlights. Premium candid sports editorial photo, realistic textures and skin, refined restrained color grade, professional architectural/event photography. Not a computer-rendered scene, not a toy world, not plastic mannequins. No text, no lettering, no logos, no watermark. All major content within central 80% so landscape crops remain meaningful.",
+      "source": "alfombra-v2-original.png",
+      "asset": "../dist/assets/alfombra-v2.webp"
+    },
+    {
+      "name": "deporte",
+      "prompt": "Use case: photorealistic-natural. Asset type: final editorial photograph for FAIR PLAY sports-event vertical touchscreen kiosk. Generate ONE portrait 1024x1536 photograph. Scene: premium still-life installation about choosing a sport, photographed from slightly above at a real sports club. A worn leather football, a textured orange basketball and a tennis racket with a tennis ball arranged intentionally on three broad low plinths clad in muted sage green and charcoal. Hands of an adult participant entering the upper edge thoughtfully reach toward the football; no face needed. Real sports equipment large and tactile in the foreground, not a miniature board game. In background softly blurred painted court lines and indoor sports architecture. Beautiful side daylight, convincing leather pebbling, strings and soft shadows, #708d81 sage surfaces, #051014 charcoal background, restrained naturally colored equipment. Contemporary sports editorial photography, simple strong composition, premium campaign art direction, human scale. No text, no brands, no watermark, no 3D render or synthetic toy world. Major subjects centered in central 80% for landscape crops.",
+      "source": "deporte-v2-original.png",
+      "asset": "../dist/assets/deporte-v2.webp"
+    },
+    {
+      "name": "invisible",
+      "prompt": "Use case: photorealistic-natural. Asset type: final editorial photograph for FAIR PLAY sports-event vertical touchscreen kiosk. Generate ONE portrait 1024x1536 photograph. Intimate documentary-style sports editorial image representing the effort and emotions nobody sees. In a real dim locker room an adult athlete is seated on a bench, leaning forward, tying the laces of scuffed football boots with hands clearly visible. Frame from chest to shoes, face outside frame, unbranded charcoal athletic shorts and sage green sports jersey. Natural skin with subtle sweat, believable anatomy, fabric weave, battered boot leather, athletic tape on one ankle. Behind them muted green lockers and a softly lit doorway toward a brighter sports court. Strong diagonal pool of natural daylight, deep but readable shadows, soft film grain, thoughtful calm mood, dignified and human. Photographic realism, premium sports magazine photo, charcoal #051014 and sage #708d81 palette, no text, no logos, no watermark, not a 3D render. Keep hands and boots in central region so a landscape crop still reads.",
+      "source": "invisible-v2-original.png",
+      "asset": "../dist/assets/invisible-v2.webp"
+    }
+  ]
+}

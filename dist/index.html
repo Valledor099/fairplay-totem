@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#051014">
+  <meta name="description" content="Explorá las cuatro experiencias de FAIR PLAY. Mapa y actividades del evento en Club Arquitectura.">
+  <title>FAIR PLAY — Explorá el evento</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="totem-large.css">
+  <script src="map.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="kiosk">
+    <header class="header">
+      <img class="brand" src="assets/brand-light.svg" alt="FAIR PLAY" width="220" height="62">
+      <div class="venue">Club Arquitectura<span>Explorá el evento</span></div>
+      <button class="fullscreen icon-button" aria-label="Activar pantalla completa" title="Pantalla completa" data-action="fullscreen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg>
+      </button>
+    </header>
+    <nav class="tabs" aria-label="Navegación principal">
+      <button id="nav-map" class="tab active" aria-current="page" data-action="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Zm6-2v16m6-14v16"/></svg>Mapa del evento</button>
+      <button id="nav-info" class="tab" data-action="info"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></svg>Las experiencias</button>
+    </nav>
+    <main id="main">
+      <section id="map-screen" class="screen map-screen" aria-labelledby="map-title">
+        <div class="intro"><div><h1 id="map-title" tabindex="-1">Explorá el evento.</h1></div></div>
+        <div class="map-layout">
+          <div class="map-card">
+            <div class="map-top"><span><i></i>Arrastrá para mover el mapa</span><span class="north" aria-label="Norte">N ↑</span></div>
+            <div id="map-viewport" class="map-viewport" tabindex="0" role="region" aria-label="Mapa desplazable. Arrastrá para moverlo o usá las flechas del teclado. Ver todo restablece el mapa."><div id="map-pan" class="map-pan"></div></div>
+            <div class="map-bottom"><span class="map-credit">Plano orientativo del predio</span><div class="map-controls" aria-label="Controles del mapa"><button class="icon-button" aria-label="Alejar mapa" data-action="zoom-out">−</button><button class="reset-map" data-action="zoom-reset">Ver todo</button><button class="icon-button" aria-label="Acercar mapa" data-action="zoom-in">+</button></div></div>
+            <div id="selected-location" class="selected-location" hidden><div><span>Encontrá esta experiencia</span><strong id="selected-name"></strong></div><button data-action="selected-detail">Ver experiencia <span aria-hidden="true">↗</span></button><button class="icon-button close-selection" data-action="clear-selection" aria-label="Quitar selección">×</button></div>
+          </div>
+          <div class="activities"><div class="section-heading"><h2>Las actividades</h2><span>4 experiencias para descubrir</span></div><div id="activity-list" class="activity-list"></div></div>
+        </div>
+      </section>
+      <section id="info-screen" class="screen info-screen" hidden aria-labelledby="info-title">
+        <div class="intro"><div><h1 id="info-title" tabindex="-1">Elegí tu experiencia.</h1></div></div>
+        <p class="info-lead">Cuatro experiencias. Cuatro maneras de ver el deporte.<br> Elegí una para conocerla y encontrarla en el mapa.</p>
+        <div id="experience-grid" class="experience-grid"></div>
+      </section>
+      <section id="detail-screen" class="screen detail-screen" hidden aria-labelledby="detail-title">
+        <div class="detail-toolbar"><span id="detail-step"></span><button class="back-button" data-action="back"><span aria-hidden="true">←</span> Regresar</button></div>
+        <div class="detail-heading"><span class="activity-number" id="detail-number"></span><div><p class="detail-location" id="detail-location"></p><h1 id="detail-title" tabindex="-1"></h1></div></div>
+        <div class="detail-content"><figure class="detail-photo"><img id="detail-image" src="assets/vestuario.webp" alt=""><figcaption>Una mirada al universo FAIR PLAY</figcaption><span class="image-stamp" aria-hidden="true">El otro lado<br>del deporte.</span></figure>
+        <div class="detail-copy"><p id="detail-description"></p><div class="location-line"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><div><span>Dónde encontrarla</span><strong id="detail-venue"></strong></div></div><button class="primary-button" data-action="locate"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Zm6-2v16m6-14v16"/></svg>Ver ubicación en el mapa <span aria-hidden="true">↗</span></button></div></div>
+        <div class="detail-pager" aria-label="Cambiar experiencia"><button data-action="previous"><span aria-hidden="true">←</span> Anterior</button><div id="pager-dots"></div><button data-action="next">Siguiente <span aria-hidden="true">→</span></button></div>
+      </section>
+    </main>
+    <footer class="footer"><span class="footer-tagline">Vení por el deporte.<br><strong>Descubrí todo lo que hay detrás.</strong></span><button class="home-button" data-action="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-8 9 8M5 9v12h5v-7h4v7h5V9"/></svg>Volver al inicio</button></footer>
+  </div>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  <dialog id="idle-dialog" aria-labelledby="idle-title"><span class="idle-symbol" aria-hidden="true">↻</span><h2 id="idle-title">¿Seguís explorando?</h2><p>Volvemos al mapa en <strong id="idle-count">20</strong> segundos para recibir a la próxima persona.</p><button class="primary-button" data-action="continue">Sí, quiero continuar</button><button class="idle-home" data-action="home">Volver al inicio</button></dialog>
+  <noscript><p class="noscript">Activá JavaScript para usar el mapa táctil y explorar las actividades.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,353 @@
+[
+  {
+    "width": 1080,
+    "height": 1920,
+    "layout": {
+      "overflow": false,
+      "pageHeight": 1920,
+      "viewportHeight": 1920,
+      "fonts": "loaded",
+      "buttons": [
+        {
+          "label": "Activar pantalla completa",
+          "height": 76,
+          "width": 76
+        },
+        {
+          "label": "Mapa del evento",
+          "height": 100,
+          "width": 484
+        },
+        {
+          "label": "Las experiencias",
+          "height": 100,
+          "width": 484
+        },
+        {
+          "label": "Alejar mapa",
+          "height": 88,
+          "width": 88
+        },
+        {
+          "label": "Ver todo",
+          "height": 88,
+          "width": 124
+        },
+        {
+          "label": "Acercar mapa",
+          "height": 88,
+          "width": 88
+        },
+        {
+          "label": "1El vestuarioCancha de hockey↗",
+          "height": 137,
+          "width": 996
+        },
+        {
+          "label": "2La alfombra rojaGimnasio / básquet↗",
+          "height": 137,
+          "width": 996
+        },
+        {
+          "label": "3Comprate un deporteCancha exterior · mitad 1↗",
+          "height": 137,
+          "width": 996
+        },
+        {
+          "label": "4Lo que no se veCancha exterior · mitad 2↗",
+          "height": 137,
+          "width": 996
+        },
+        {
+          "label": "Volver al inicio",
+          "height": 78,
+          "width": 268
+        }
+      ]
+    },
+    "errors": [],
+    "flows": "4 fichas, ubicaciones, selección, regreso, inicio y zoom: OK"
+  },
+  {
+    "width": 720,
+    "height": 1280,
+    "layout": {
+      "overflow": false,
+      "pageHeight": 1280,
+      "viewportHeight": 1280,
+      "fonts": "loaded",
+      "buttons": [
+        {
+          "label": "Activar pantalla completa",
+          "height": 51,
+          "width": 51
+        },
+        {
+          "label": "Mapa del evento",
+          "height": 67,
+          "width": 322
+        },
+        {
+          "label": "Las experiencias",
+          "height": 67,
+          "width": 322
+        },
+        {
+          "label": "Alejar mapa",
+          "height": 59,
+          "width": 59
+        },
+        {
+          "label": "Ver todo",
+          "height": 59,
+          "width": 83
+        },
+        {
+          "label": "Acercar mapa",
+          "height": 59,
+          "width": 59
+        },
+        {
+          "label": "1El vestuarioCancha de hockey↗",
+          "height": 92,
+          "width": 664
+        },
+        {
+          "label": "2La alfombra rojaGimnasio / básquet↗",
+          "height": 92,
+          "width": 664
+        },
+        {
+          "label": "3Comprate un deporteCancha exterior · mitad 1↗",
+          "height": 92,
+          "width": 664
+        },
+        {
+          "label": "4Lo que no se veCancha exterior · mitad 2↗",
+          "height": 92,
+          "width": 664
+        },
+        {
+          "label": "Volver al inicio",
+          "height": 52,
+          "width": 179
+        }
+      ]
+    },
+    "errors": [],
+    "flows": "4 fichas, ubicaciones, selección, regreso, inicio y zoom: OK"
+  },
+  {
+    "width": 2160,
+    "height": 3840,
+    "layout": {
+      "overflow": false,
+      "pageHeight": 3840,
+      "viewportHeight": 3840,
+      "fonts": "loaded",
+      "buttons": [
+        {
+          "label": "Activar pantalla completa",
+          "height": 152,
+          "width": 152
+        },
+        {
+          "label": "Mapa del evento",
+          "height": 200,
+          "width": 969
+        },
+        {
+          "label": "Las experiencias",
+          "height": 200,
+          "width": 969
+        },
+        {
+          "label": "Alejar mapa",
+          "height": 176,
+          "width": 176
+        },
+        {
+          "label": "Ver todo",
+          "height": 176,
+          "width": 248
+        },
+        {
+          "label": "Acercar mapa",
+          "height": 176,
+          "width": 176
+        },
+        {
+          "label": "1El vestuarioCancha de hockey↗",
+          "height": 271,
+          "width": 1992
+        },
+        {
+          "label": "2La alfombra rojaGimnasio / básquet↗",
+          "height": 271,
+          "width": 1992
+        },
+        {
+          "label": "3Comprate un deporteCancha exterior · mitad 1↗",
+          "height": 271,
+          "width": 1992
+        },
+        {
+          "label": "4Lo que no se veCancha exterior · mitad 2↗",
+          "height": 271,
+          "width": 1992
+        },
+        {
+          "label": "Volver al inicio",
+          "height": 156,
+          "width": 533
+        }
+      ]
+    },
+    "errors": [],
+    "flows": "4 fichas, ubicaciones, selección, regreso, inicio y zoom: OK"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "layout": {
+      "overflow": false,
+      "pageHeight": 900,
+      "viewportHeight": 900,
+      "fonts": "loaded",
+      "buttons": [
+        {
+          "label": "Activar pantalla completa",
+          "height": 36,
+          "width": 36
+        },
+        {
+          "label": "Mapa del evento",
+          "height": 47,
+          "width": 226
+        },
+        {
+          "label": "Las experiencias",
+          "height": 47,
+          "width": 226
+        },
+        {
+          "label": "Alejar mapa",
+          "height": 41,
+          "width": 41
+        },
+        {
+          "label": "Ver todo",
+          "height": 41,
+          "width": 58
+        },
+        {
+          "label": "Acercar mapa",
+          "height": 41,
+          "width": 41
+        },
+        {
+          "label": "1El vestuarioCancha de hockey↗",
+          "height": 65,
+          "width": 467
+        },
+        {
+          "label": "2La alfombra rojaGimnasio / básquet↗",
+          "height": 65,
+          "width": 467
+        },
+        {
+          "label": "3Comprate un deporteCancha exterior · mitad 1↗",
+          "height": 65,
+          "width": 467
+        },
+        {
+          "label": "4Lo que no se veCancha exterior · mitad 2↗",
+          "height": 65,
+          "width": 467
+        },
+        {
+          "label": "Volver al inicio",
+          "height": 37,
+          "width": 126
+        }
+      ]
+    },
+    "errors": [],
+    "flows": "4 fichas, ubicaciones, selección, regreso, inicio y zoom: OK"
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "layout": {
+      "overflow": false,
+      "pageHeight": 844,
+      "viewportHeight": 844,
+      "fonts": "loaded",
+      "buttons": [
+        {
+          "label": "Activar pantalla completa",
+          "height": 27,
+          "width": 27
+        },
+        {
+          "label": "Mapa del evento",
+          "height": 36,
+          "width": 174
+        },
+        {
+          "label": "Las experiencias",
+          "height": 36,
+          "width": 174
+        },
+        {
+          "label": "Alejar mapa",
+          "height": 32,
+          "width": 32
+        },
+        {
+          "label": "Ver todo",
+          "height": 32,
+          "width": 45
+        },
+        {
+          "label": "Acercar mapa",
+          "height": 32,
+          "width": 32
+        },
+        {
+          "label": "1El vestuarioCancha de hockey↗",
+          "height": 51,
+          "width": 360
+        },
+        {
+          "label": "2La alfombra rojaGimnasio / básquet↗",
+          "height": 51,
+          "width": 360
+        },
+        {
+          "label": "3Comprate un deporteCancha exterior · mitad 1↗",
+          "height": 51,
+          "width": 360
+        },
+        {
+          "label": "4Lo que no se veCancha exterior · mitad 2↗",
+          "height": 51,
+          "width": 360
+        },
+        {
+          "label": "Volver al inicio",
+          "height": 28,
+          "width": 98
+        }
+      ]
+    },
+    "errors": [],
+    "flows": "4 fichas, ubicaciones, selección, regreso, inicio y zoom: OK"
+  },
+  {
+    "idle": "Aviso, continuar y retorno automático: OK"
+  },
+  {
+    "offline": "Abre como archivo local y navega sin red: OK"
+  }
+]

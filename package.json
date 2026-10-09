@@ -1,0 +1,13 @@
+{
+  "name": "fairplay-totem",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interfaz táctil vertical para el evento FAIR PLAY",
+  "scripts": {
+    "test": "node verify.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
