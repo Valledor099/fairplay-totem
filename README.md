@@ -4,6 +4,20 @@ Web local, sin dependencias de red ni compilación. Abrir `dist/index.html` en u
 
 La interfaz parte de los cinco PDF Frame 2 a Frame 6: mapa general y cuatro fichas de actividades. Conserva los textos, elimina las duplicaciones del PDF y usa la paleta Noche, Carbón, Pizarra, Salvia y Papel del manual de marca. Barlow Condensed y Manrope continúan el lenguaje de la web actual; los logotipos originales se conservan sin redibujar.
 
+## Deploy en Vercel
+
+1. Entrar a https://vercel.com/new e importar `Valledor099/fairplay-totem`. La integración de GitHub debe tener acceso al repo de esa cuenta.
+2. Dejar **Root Directory** en la raíz del repositorio (`./`). No cambiarla a `dist`.
+3. Usar la rama `main` y presionar **Deploy**.
+
+`vercel.json` configura **Framework Preset: Other**, **Output Directory: dist** y omite instalación y compilación. La web ya está lista en `dist/`; Playwright y Python se usan únicamente para las herramientas locales. No requiere variables de entorno ni servicios externos.
+
+Si la pantalla de importación pide valores manualmente, usar `Other`, directorio de salida `dist` y dejar vacíos **Build Command** e **Install Command**, con sus overrides habilitados. Mantener la raíz en `./` para que Vercel lea `vercel.json`.
+
+Después del deploy, abrir la URL en el tótem con la pantalla configurada en vertical y el navegador en pantalla completa. La navegación entre experiencias funciona dentro de la página y no necesita reglas de redirección adicionales.
+
+Referencia: [configuración oficial de Vercel](https://vercel.com/docs/project-configuration/vercel-json).
+
 ## Uso en el tótem
 
 - La web ocupa todo el ancho disponible, sin marco angosto de simulación ni límite de tamaño. Escala usando tanto el ancho como la altura del display para evitar que una pantalla muy alta reduzca los controles. La composición del tótem sigue siendo vertical.
